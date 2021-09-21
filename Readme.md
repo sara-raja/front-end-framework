@@ -56,3 +56,13 @@ remove the .git file
 ```
   rm -rf .git
 ```
+
+## Netlify Commands
+
+1. pick a repository
+2. On the deploy settings, scroll to build commands.
+3. Add build command as:
+   ```
+   parcel build src/index.html
+   ```
+4. This is basically another way to deply you file that is not local similar to parcel bundling. 
