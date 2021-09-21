@@ -1,0 +1,10 @@
+# node_module
+/node_modules
+
+#parcle bundler files
+.parcel-cache
+dist
+
+#OS files
+# . DS_Store (This is a Mac OS file)
+node_modules
